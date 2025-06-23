@@ -9,7 +9,7 @@ import os
 # Webページのタイトルとアイコンを設定します。
 # set_page_config() はスクリプトの一番最初のStreamlitコマンドである必要があります。
 st.set_page_config(
-    page_title="小杉「今日どこ行く？」AIコンシェルジュ",
+    page_title="射水「今日どこ行く？」AIコンシェルジュ",
     page_icon="✨",
     layout="wide" # 画面を広く使います。
 )
@@ -73,8 +73,8 @@ def recommend_spots(df, mood_input, duration_input, who_with_input):
 
 
 # アプリのタイトルと説明文を表示します。
-st.title("✨ 小杉「今日どこ行く？」AIコンシェルジュ")
-st.write("あなたの今日の気分に合わせて、富山県射水市小杉町のおすすめスポットをご提案します！")
+st.title("✨ 射水「今日どこ行く？」AIコンシェルジュ")
+st.write("あなたの今日の気分に合わせて、富山県射水市のおすすめスポットをご提案します！")
 
 # --- あなたからの入力部分 ---
 st.header("今日の気分を教えてください")
